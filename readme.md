@@ -41,3 +41,9 @@ styles
     ├── forms.scss
     └── buttons.scss
 ```
+
+### Class naming conventions
+
+Never reference ```js-``` prefixed class names from CSS files. ```js-``` are used exclusively from JS files.
+
+Use the ```is-``` prefix for state rules that are shared between CSS and JS.
