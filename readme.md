@@ -12,7 +12,7 @@ _This is my styleguide, not yours. (Well, you can use it, sure)_
 
 A good syntax example:
 
-```
+``` css
 // This is a good example!
 .styleguide-format {
   border: 1px solid #0f0ff0;
