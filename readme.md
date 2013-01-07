@@ -1,5 +1,5 @@
 # Styleguide
-_This is my styleguide, not yours_
+_This is my styleguide, not yours. (Well, you can use it, sure)_
 
 ## Overview
 
