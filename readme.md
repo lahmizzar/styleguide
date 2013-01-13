@@ -1,12 +1,12 @@
 # Overview
 
-You'll find here some advises/tips and recommandations about how your code should be. These styleguides or guidelines are based on some others like the (github one)[https://github.com/styleguide] or thoses of [necolas](https://github.com/necolas).
+You'll find here some advises/tips and recommandations about how your code should be. These styleguides or guidelines are based on some others like the [github one](https://github.com/styleguide) or thoses of [necolas](https://github.com/necolas).
 
 For more details about specific domain, you should go there:
 
-- (CSS)[https://github.com/kud/styleguide/blob/master/css.md]
-- (HTML)[https://github.com/kud/styleguide/blob/master/html.md]
-- (JavaScript)[https://github.com/kud/styleguide/blob/master/js.md]
+- [CSS](https://github.com/kud/styleguide/blob/master/css.md)
+- [HTML](https://github.com/kud/styleguide/blob/master/html.md)
+- [JavaScript](https://github.com/kud/styleguide/blob/master/js.md)
 
 ## Whitespace
 
