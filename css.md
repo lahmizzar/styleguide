@@ -7,7 +7,7 @@ All these years of experience and testing join in one file. Yes, this is my css 
 The chosen code format must ensure that code is: easy to read; easy to clearly comment; minimizes the chance of accidentally introducing errors; and results in useful diffs and blames.
 
 * Write valid CSS unless you really know what you're doing.
-* Avoid @import.
+* Avoid ```@import```.
 * Put spaces after ```:``` in property declarations.
 * Put spaces before ```{``` in rule declarations.
 * Use lowercase and shorthand hex values, e.g., ```#aaa``` unless using rgba.
