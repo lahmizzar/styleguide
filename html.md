@@ -21,6 +21,33 @@ patterns. They should be adapted as needed to create your own style guide.
 * Strictly enforce the agreed upon style.
 * If in doubt when deciding upon a style, use existing, common patterns.
 
+### Protocol
+
+Omit the protocol portion (http:, https:) from URLs pointing to images and other media files, style sheets, and scripts unless the respective files are not available over both protocols.
+
+Omitting the protocol—which makes the URL relative—prevents mixed content issues and results in minor file size savings.
+
+``` html
+<!-- Not recommended -->
+<script src="http://www.google.com/js/gweb/analytics/autotrack.js"></script>
+
+<!-- Recommended -->
+<script src="//www.google.com/js/gweb/analytics/autotrack.js"></script>
+
+/* Not recommended */
+.example {
+  background: url(http://www.google.com/images/example);
+}
+
+/* Recommended */
+.example {
+  background: url(//www.google.com/images/example);
+}
+````
+
+### Charset
+
+Make sure your editor uses UTF-8 as character encoding, without a byte order mark. Specify the encoding in HTML templates and documents via ```<meta charset="utf-8">```.
 
 <a name="whitespace"></a>
 ## 2. Whitespace
@@ -190,3 +217,4 @@ An example of various conventions.
     </body>
 </html>
 ```
+
