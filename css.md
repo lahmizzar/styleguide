@@ -6,23 +6,26 @@ All these years of experience and testing join in one file. Yes, this is my css 
 
 The chosen code format must ensure that code is: easy to read; easy to clearly comment; minimizes the chance of accidentally introducing errors; and results in useful diffs and blames.
 
-* Put spaces after : in property declarations.
-* Put spaces before { in rule declarations.
-* Use hex color codes #000000 unless using rgba.
-* Use // for comment blocks (instead of /* */).
+* Write valid CSS unless you really know what you're doing
+* Avoid @import
+* Put spaces after ```:``` in property declarations.
+* Put spaces before ```{``` in rule declarations.
+* Use lowercase and shorthand hex values, e.g., ```#aaa``` unless using rgba.
+* Use ```//``` for comment blocks (instead of ```/* */```).
 * Use one discrete selector per line in multi-selector rulesets.
 * Include a single space before the opening brace of a ruleset.
 * Include one declaration per line in a declaration block.
 * Use one level of indentation for each declaration.
-* Include a single space after the colon of a declaration.
-* Use lowercase and shorthand hex values, e.g., #aaa.
-* Use single or double quotes consistently. Preference is for double quotes, e.g., content: "".
-* Quote attribute values in selectors, e.g., input[type="checkbox"].
-* Where allowed, avoid specifying units for zero-values, e.g., margin: 0.
+* Use single or double quotes consistently. Preference is for double quotes, e.g., ```content: ""```.
+* Quote attribute values in selectors, e.g., ```input[type="checkbox"]```.
+* Where allowed, avoid specifying units for zero-values, e.g., ```margin: 0```.
 * Include a space after each comma in comma-separated property or function values.
 * Include a semi-colon at the end of the last declaration in a declaration block.
 * Place the closing brace of a ruleset in the same column as the first character of the ruleset.
 * Separate each ruleset by a blank line.
+* Words are separated by a dash. e.g: ```#header-navigation```. Avoid camelCase.
+* Use meaningfull selectors that reflect content, not presentation.
+* DO NOT USE ```!important```. Except if you really have no choice (which means never).
 
 Here is good example syntax:
 
@@ -44,6 +47,20 @@ Here is good example syntax:
 .selector-a,
 .selector-b {
     padding: 10px;
+}
+```
+
+Oh by the way: Use the least specific selector needed.
+
+``` css
+/* bad */
+#header #logo {
+    ...
+}
+
+/* good */
+#logo {
+    ...
 }
 ```
 
