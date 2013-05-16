@@ -11,7 +11,7 @@ The chosen code format must ensure that code is: easy to read; easy to clearly c
 * Put spaces after ```:``` in property declarations.
 * Put spaces before ```{``` in rule declarations.
 * Use lowercase and shorthand hex values, e.g., ```#aaa``` unless using rgba.
-* Use ```//``` for comment blocks (instead of ```/* */```).
+* Use ```//``` for comment blocks (instead of ```/* */```) (Only in Sass).
 * Use one discrete selector per line in multi-selector rulesets.
 * Include a single space before the opening brace of a ruleset.
 * Include one declaration per line in a declaration block.
@@ -143,9 +143,9 @@ As a rule of thumb, don't nest further than 3 levels deep. If you find yourself 
 }
 ```
 
-## File Organization
+## File Organisation
 
-In general, the CSS file organization should follow something like this:
+In general, the CSS file organisation should follow something like this:
 
     styles
     ├── components
@@ -292,3 +292,11 @@ An example of various conventions.
     border-width: 4px;
 }
 ```
+
+## Class names
+
+Some drafts:
+
+http://blog.kaelig.fr/post/48196348743/fifty-shades-of-bem
+http://www.vanseodesign.com/css/block-element-modifier/
+https://gist.github.com/necolas/1309546
