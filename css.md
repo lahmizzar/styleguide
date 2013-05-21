@@ -301,3 +301,4 @@ http://blog.kaelig.fr/post/48196348743/fifty-shades-of-bem
 http://www.vanseodesign.com/css/block-element-modifier/
 https://gist.github.com/necolas/1309546
 http://montagejs.org/docs/Naming-Conventions.html
+http://oliverjash.me/2012/09/07/methods-for-modifying-objects-in-oocss.html
